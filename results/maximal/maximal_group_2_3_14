@@ -1,0 +1,14 @@
+# script:
+#   maximal_group_2_3_14.gap
+
+# output:
+
+  Properties of the quotient:
+-------------------------------------
+ Size: 588
+ Orders of the elements: 
+  o(a) = 2 |  o(b) = 2 |  o(c) = 2 |  o(ab) = 2 |  o(bc) = 3 |  o(ca) = 14
+ Structure: (C7 x C7) : D12
+ 
+Is K=<ab,bc> a proper subgroup of G? true
+Index [G,K]: 2
