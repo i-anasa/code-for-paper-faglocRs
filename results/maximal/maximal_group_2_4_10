@@ -1,0 +1,14 @@
+# script:
+#   maximal_group_2_4_10.gap
+
+# output:
+
+  Properties of the quotient:
+-------------------------------------
+ Size: 80
+ Orders of the elements: 
+  o(a) = 2 |  o(b) = 2 |  o(c) = 2 |  o(ab) = 2 |  o(bc) = 4 |  o(ca) = 10
+ Structure: D8 x D10
+ 
+Is K=<ab,bc> a proper subgroup of G? true
+Index [G,K]: 2
