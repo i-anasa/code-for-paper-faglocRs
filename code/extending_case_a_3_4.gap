@@ -24,7 +24,7 @@ Print (
 );;
 
 # orientation preserving automorphism group
-F := Subgroup(G, [a, c*a*c]);
+F := Subgroup(G, [a, c*a*c]);;
 Print("\nIndex of G⁺ in G = ", Index(G,F), "\n");
 
 isom := GroupGeneralMappingByImages(G, G, [a,c], [a^-1,c]);;
