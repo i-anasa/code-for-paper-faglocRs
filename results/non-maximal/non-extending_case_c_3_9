@@ -1,0 +1,12 @@
+# script:
+#   non-extending_case_c_3_9.gap
+
+# output:
+
+  Properties of the quotient:
+-------------------------------------
+ Size: 1512
+ Orders of the elements: 
+  o(a) = 2 |  o(b) = 3 |  o(ab) = 9
+ 
+Does the action of G admit an extension? false 
