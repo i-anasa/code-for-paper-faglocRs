@@ -1,0 +1,13 @@
+# script:
+#   extending_case_a_3_4.gap
+
+# output:
+
+  Properties of the quotient:
+-------------------------------------
+ Size: 48
+ Description: ((C4 x C2) : C2) : C3
+ Orders of the elements: 
+  o(a) = 3 |  o(c) = 2 |  o([a,c]) = 4
+ 
+Does the action of G admit an extension? true 
