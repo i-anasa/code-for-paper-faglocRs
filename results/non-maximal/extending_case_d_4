@@ -1,0 +1,16 @@
+# script:
+#   extending_case_d_4.gap
+
+# output:
+
+  Properties of the quotient:
+-------------------------------------
+ Size: 32
+ Orders of the elements: 
+  o(a) = 2 |  o(b) = 2 |  o(c) = 2 |  o(ab) = 2 |  o(bc) = 4 |  o(ca) = 8
+ 
+Index of G⁺ in G = 2
+
+Index of K in G = 2
+
+Does the action of G admit an extension? true 
