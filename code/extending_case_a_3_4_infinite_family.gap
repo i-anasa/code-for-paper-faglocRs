@@ -26,12 +26,13 @@ od;
 # subgroup N
 N := Subgroup(G, U);;
 Print("Is the subgroup N normal? ", IsNormal(G, N), "\n");
-Q := G / U;;
+Q := G / N;;
 
-Print("Size of the quotient G/U = ", Size(Q), "\n");
+Print("Size of the quotient G/N = ", Size(Q), "\n");
 
 Print("---------------------------------------------\n");
 
+Print("Presentation for N:\n");
 FpN := Range(IsomorphismFpGroup(N));;
 P := PresentationFpGroup(FpN);;
 TzOptions( P ).saveLimit := 1;;
