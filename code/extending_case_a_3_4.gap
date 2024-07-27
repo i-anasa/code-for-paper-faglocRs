@@ -4,7 +4,6 @@
 # Case a, the action extends.
 # Finitely presented group on two generators.
 
-
 # Free group.
 f := FreeGroup( "a", "c");;
 a := f.1;; c := f.2;;
@@ -23,6 +22,10 @@ Print (
     " o(c) = ", Order(c), " | ",
     " o([a,c]) = ", Order(a^-1*c*a*c), "\n "
 );;
+
+# orientation preserving automorphism group
+F := Subgroup(G, [a, c*a*c]);
+Print("\nIndex of G⁺ in G = ", Index(G,F), "\n");
 
 isom := GroupGeneralMappingByImages(G, G, [a,c], [a^-1,c]);;
 Print("\nDoes the action of G admit an extension? ", IsMapping(isom), " \n");
