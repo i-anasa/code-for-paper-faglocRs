@@ -9,5 +9,7 @@
  Description: S5
  Orders of the elements: 
   o(a) = 5 |  o(c) = 2 |  o([a,c]) = 2
+
+Index of G⁺ in G = 2
  
 Does the action of G admit an extension? true 
