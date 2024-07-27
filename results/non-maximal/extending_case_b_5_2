@@ -1,0 +1,15 @@
+# script:
+#   extending_case_b_5_2.gap
+
+# output:
+
+  Properties of the quotient:
+-------------------------------------
+ Size: 120
+ Description: C2 x A5
+ Orders of the elements: 
+  o(a) = 2 |  o(b) = 2 |  o(c) = 2 |  o(ab) = 5 |  o(bc) = 5 |  o(ca) = 2
+ 
+Index of G⁺ in G = 2
+
+Does the action of G admit an extension? true 
